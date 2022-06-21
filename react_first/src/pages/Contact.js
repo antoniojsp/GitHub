@@ -1,22 +1,9 @@
 import React from "react";
-import LinkedInIcon from "@material-ui/icons/LinkedIn";
-import EmailIcon from "@material-ui/icons/Email";
-import GithubIcon from "@material-ui/icons/GitHub";
 import "../styles/Home.css";
 import { UrlList } from "../helpers/UrlList";
 
-
-const hyper_link = (type) => {window.location.href= UrlList[type]};
-const email = (email) => { window.location = UrlList.Email};
-
-function openInNewTab(url) {
-    window.open(url, '_blank').focus();
-   }
-
 function Contact() {
   return (
-
-
       <section id="contact" className="relative">
       <div className="container px-5 py-10 mx-auto flex sm:flex-nowrap flex-wrap">
         <div className="lg:w-2/3 md:w-1/2 bg-gray-900 rounded-lg overflow-hidden sm:mr-10 p-10 flex items-end justify-start relative">
@@ -58,10 +45,6 @@ function Contact() {
         </div>
       </div>
     </section>
-
-
-
-
   );
 }
 
