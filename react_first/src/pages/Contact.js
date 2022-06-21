@@ -1,6 +1,5 @@
 import React from "react";
 import "../styles/Home.css";
-import { UrlList } from "../helpers/UrlList";
 
 function Contact() {
   return (
@@ -34,7 +33,7 @@ function Contact() {
                 EMAIL
               </h2>
               <a className="text-indigo-400 leading-relaxed">
-                <a href="mailto:antonios@uoregon.edu" > antonios@uoregon.edu </a>
+                 antonios@uoregon.edu
               </a>
               <h2 className="title-font font-semibold text-white tracking-widest text-xs mt-4">
                 PHONE
