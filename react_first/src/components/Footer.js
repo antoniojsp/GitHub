@@ -19,7 +19,6 @@ function Footer() {
         <FacebookIcon onClick={event => hyper_link("Facebook")}/>
         <LinkedInIcon onClick={event => hyper_link("Linkedin")}/>
         <EmailIcon onClick={event => email("Email")}/>
-
       </div>
       <p> &copy; 2022 Antonio Silva Paucar</p>
     </div>
