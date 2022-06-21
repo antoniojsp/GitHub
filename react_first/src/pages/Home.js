@@ -9,23 +9,18 @@ import { UrlList } from "../helpers/UrlList";
 const hyper_link = (type) => {window.location.href= UrlList[type]};
 const email = (email) => { window.location = UrlList.Email};
 
-function openInNewTab(url) {
-    window.open(url, '_blank').focus();
-   }
-
 function Home() {
   return (
     <div className="home">
       <div className="about">
         <h2> Antonio Jesus Silva Paucar</h2>
         <div className="prompt">
-          <p>Software Developer in Eugene, Oregon. Graduated from the University of Oregon in 2021</p>
-          <LinkedInIcon onClick={event => openInNewTab(hyper_link("Linkedin"))}/>
-          <EmailIcon  onClick={event => email()}/>
-          <GithubIcon onClick={event => hyper_link("Github")} />
+          <p>Software Developer in Eugene, Oregon graduated from the University of Oregon in 2021</p>
+          <LinkedInIcon onClick={event => hyper_link("Linkedin")}/>
+          <EmailIcon onClick={event => email()}/>
+          <GithubIcon onClick={event => hyper_link("Github")}/>
         </div>
       </div>
-      
       <div className="skills">
         <h1> Technologies</h1>
         <ol className="list">
