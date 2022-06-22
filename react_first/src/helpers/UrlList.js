@@ -6,3 +6,11 @@ export const UrlList =
       Email: "mailto:antonios@uoregon.edu",
       Github: "https://github.com/antoniojsp"
     };
+
+export const skills = 
+{
+    "Front-end": []
+
+
+
+}

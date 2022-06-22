@@ -13,16 +13,16 @@ function Home() {
   return (
     <div className="home">
       <div className="about">
-        <h2> Antonio Jesus Silva Paucar</h2>
+        <h2> Antonio J. Silva Paucar</h2>
         <div className="prompt">
           <p>Software Developer in Eugene, Oregon. Graduated from the University of Oregon in 2021</p>
           <LinkedInIcon onClick={event => hyper_link("Linkedin")}/>
-          <EmailIcon  onClick={event => email("Email")}/>
           <GithubIcon onClick={event => hyper_link("Github")} />
+          <EmailIcon  onClick={event => email("Email")}/>
         </div>
       </div>
       <div className="skills">
-        <h1> Technologies</h1>
+        <h1> Experience </h1>
         <ol className="list">
           <li className="item">
             <h2> Front-End</h2>

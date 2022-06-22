@@ -44,15 +44,15 @@ function Contact() {
             </div>
             <div className="lg:w-1/2 px-6 mt-4 lg:mt-0">
               <h2 className="title-font font-semibold text-white tracking-widest text-xs">
-                EMAIL
+                EMAIL:
               </h2>
               <a className="text-indigo-400 leading-relaxed">
-                <a href="mailto:antonios@uoregon.edu" > antonios@uoregon.edu </a>
+                <a href="mailto:antonios@uoregon.edu"> antonios@uoregon.edu </a>
               </a>
               <h2 className="title-font font-semibold text-white tracking-widest text-xs mt-4">
-                PHONE
+                PHONE:
               </h2>
-              <p className="leading-relaxed">562-396-3775</p>
+              <p className="leading-relxed">562-396-3775</p>
             </div>
           </div>
         </div>
