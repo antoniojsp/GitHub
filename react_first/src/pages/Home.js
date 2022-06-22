@@ -21,7 +21,6 @@ function Home() {
           <GithubIcon onClick={event => hyper_link("Github")} />
         </div>
       </div>
-      
       <div className="skills">
         <h1> Technologies</h1>
         <ol className="list">
@@ -34,7 +33,7 @@ function Home() {
           <li className="item">
             <h2>Back-End</h2>
             <span>
-              Flask, Django, Heroku, MongoDB, React, and MongoAtlas
+              Flask, Django, Heroku, MongoDB, and MongoAtlas
             </span>
           </li>
           <li className="item">
