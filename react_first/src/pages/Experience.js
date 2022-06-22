@@ -20,12 +20,9 @@ function Experience() {
           icon={<SchoolIcon />}
         >
           <h3 className="vertical-timeline-element-title">
-            Moved to the US
+            Moved to the United States
           </h3>
         </VerticalTimelineElement>
-
-
-
         <VerticalTimelineElement
           className="vertical-timeline-element--education"
           date="2016 - 2021"
@@ -33,17 +30,15 @@ function Experience() {
           icon={<SchoolIcon />}
         >
           <h3 className="vertical-timeline-element-title">
-            University of Oregon - Computer Sciences
+            University of Oregon - Computer Sciences, 2021
           </h3>
 
           <h4 className="vertical-timeline-element-subtitle">
-            Bachelor's Degree
+            Bachelor's Degree in Science
           </h4>
 
           <p> Computer Science</p>
         </VerticalTimelineElement>
-
-
         <VerticalTimelineElement
           className="vertical-timeline-element--education"
           date="2015 - 2022"

@@ -1,6 +1,5 @@
 import React from "react";
 import InstagramIcon from "@material-ui/icons/Instagram";
-import TwitterIcon from "@material-ui/icons/Twitter";
 import FacebookIcon from "@material-ui/icons/Facebook";
 import LinkedInIcon from "@material-ui/icons/LinkedIn";
 import EmailIcon from "@material-ui/icons/Email";
@@ -20,7 +19,6 @@ function Footer() {
         <FacebookIcon onClick={event => hyper_link("Facebook")}/>
         <LinkedInIcon onClick={event => hyper_link("Linkedin")}/>
         <EmailIcon onClick={event => email("Email")}/>
-
       </div>
       <p> &copy; 2022 Antonio Silva Paucar</p>
     </div>
